@@ -13,7 +13,7 @@ public class kafkaTestClass {
 	      Properties config = new Properties();
 	      config.put(AdminClientConfig.BOOTSTRAP_SERVERS_CONFIG, "pkc-43n10.us-central1.gcp.confluent.cloud:9092");
 	      config.put("security.protocol", "SASL_SSL");
-	      config.put("sasl.jaas.config", "org.apache.kafka.common.security.plain.PlainLoginModule   required username='4QJTMSOKOLAWDV23'   password='pj0yj1KaSpeJ4wPOeVME/Ne1NgTdFExn5kyWk7x+2rjuh0rX4GrA/F/Jy/DhvRqu';");
+	      config.put("sasl.jaas.config", "org.apache.kafka.common.security.plain.PlainLoginModule   required username='SA_NAME'   password='SA_PASSWORD';");
 	      config.put("sasl.mechanism", "PLAIN");
 	      config.put("client.dns.lookup", "use_all_dns_ips");
 	      config.put("acks", "all");
